@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= title %></title>
+  <link rel='stylesheet' href='/stylesheets/style.css'/>
+  <script type="text/javascript" src="/javascripts/index.js"></script>
+</head>
+<body>
+<h1><%= title %></h1>
+<ul>
+  <% for(var i = 0; i < items.length; i++) { %>
+  <li><%= items[i].name %></li>
+  <% } %>
+</ul>
+<form action="/" method="post">
+  <input type="text" name="name"/>
+  <input type="submit"/>
+</form>
+</body>
+</html>

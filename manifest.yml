@@ -1,0 +1,4 @@
+---
+applications:
+- name: todo
+  command: node ./bin/www

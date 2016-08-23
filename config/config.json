@@ -1,0 +1,6 @@
+{
+  "development": {
+    "url": "postgres://melnikaite@localhost:5432/todo",
+    "dialect": "postgres"
+  }
+}
