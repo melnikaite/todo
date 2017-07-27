@@ -2,3 +2,4 @@
 applications:
 - name: todo
   command: node ./bin/www
+  memory: 128M
